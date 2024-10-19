@@ -1,3 +1,5 @@
+const TXT_POPUP = `Привет, приложение находится в вразработке`
+
 $(document).ready(() => {
   let tg = window.Telegram.WebApp;
 
@@ -5,6 +7,9 @@ $(document).ready(() => {
   if (!tg.isExpanded) {
     tg.expand()
   }
+
+  //Предупреждение о разработке
+  tg.PopupButton.defaultType(1, TXT_POPUP)
 
   // отключение свайпа для закрытия
   tg.isVerticalSwipesEnabled = false;
