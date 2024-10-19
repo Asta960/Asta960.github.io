@@ -15,7 +15,7 @@
   \***********************/
 /***/ (() => {
 
-eval("throw new Error(\"Module parse failed: Identifier '$' has already been declared (2:7)\\nYou may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders\\n| import $ from 'jquery';\\n> import $ from 'telegram-web-app';\\n| const TelegramBot = require('node-telegram-bot-api');\\n| \");\n\n//# sourceURL=webpack://darksleep/./src/js/app.js?");
+eval("throw new Error(\"Module parse failed: Unexpected token (2:9)\\nYou may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders\\n| import $ from 'jquery';\\n> import * from 'telegram-web-app';\\n| const TelegramBot = require('node-telegram-bot-api');\\n| \");\n\n//# sourceURL=webpack://darksleep/./src/js/app.js?");
 
 /***/ })
 
