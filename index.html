@@ -53,22 +53,16 @@
   <div class="Main">
     <h1>Тестовое приложение</h1>
     <button class="btn">Кнопка</button>
+    <button class="btn-close">Закрыть</button>
   </div>
 
-  <script src="./telegram-web-app.js"></script>
-  <script src="./jquery-3.7.1.min.js"></script>
+  <script defer src="./telegram-web-app.js"></script>
+  <script defer src="./jquery-3.7.1.min.js"></script>
 
 
-  <script>
+  <script defer>
     let tg = window.Telegram.WebApp;
 
-    let fBtn = document.getElementsByClassName("f-btn")[0]
-    let sBtn = document.getElementsByClassName("s-btn")[0]
-
-    fBtn.addEventListener("click", () => {
-      document.getElementsByClassName("Main")[0].style.display = "none";
-      document.getElementsByClassName("test-form")[0].style.display = "block";
-    });
 
     sBtn.addEventListener("click", () => {
       tg.close();
