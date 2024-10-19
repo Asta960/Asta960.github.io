@@ -9,7 +9,7 @@ $(document).ready(() => {
   }
 
   //Предупреждение о разработке
-  tg.PopupButton.defaultType(1, TXT_POPUP)
+  tg.PopupButton([{"type":"close", "text":"TXT_POPUP"}])
 
   // отключение свайпа для закрытия
   tg.isVerticalSwipesEnabled = false;
