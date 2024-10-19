@@ -55,7 +55,25 @@
     <button class="btn">Кнопка</button>
   </div>
 
-  <script defer src="https://telegram.org/js/telegram-web-app.js"></script>
+  <script src="./telegram-web-app.js"></script>
+  <script src="./jquery-3.7.1.min.js"></script>
+
+
+  <script>
+    let tg = window.Telegram.WebApp;
+
+    let fBtn = document.getElementsByClassName("f-btn")[0]
+    let sBtn = document.getElementsByClassName("s-btn")[0]
+
+    fBtn.addEventListener("click", () => {
+      document.getElementsByClassName("Main")[0].style.display = "none";
+      document.getElementsByClassName("test-form")[0].style.display = "block";
+    });
+
+    sBtn.addEventListener("click", () => {
+      tg.close();
+    });
+  </script>
 </body>
 
 </html>
