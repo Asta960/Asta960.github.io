@@ -12,8 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "jquery": "^3.7.1",
-    "node-telegram-bot-api": "^0.66.0",
-    "telegram-web-app": "^0.0.0"
+    "node-telegram-bot-api": "^0.66.0"
   },
   "devDependencies": {
     "webpack": "^5.95.0",
