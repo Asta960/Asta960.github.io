@@ -123,6 +123,10 @@ body {
   font-size: 14px;
   color: #fff;
 }
+.product_div .img-div {
+  width: 80px;
+  border-radius: 15px;
+}
 
 .magaz__category {
   display: flex;
