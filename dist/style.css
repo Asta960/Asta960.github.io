@@ -101,8 +101,10 @@ body {
 
 .main__tab-1 div {
   display: flex;
-  align-items: center;
+  height: 100%;
+  align-items: end;
   justify-content: center;
+  padding: 0 0 60px 0;
 }
 
 .magaz__h2 {
