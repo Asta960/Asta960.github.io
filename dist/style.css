@@ -117,6 +117,9 @@ body {
   background: #09294c;
 }
 .product_div p {
+  display: flex;
+  align-items: center;
+  gap: 8px;
   margin: 0;
   font-weight: 400;
   font-size: 14px;
