@@ -29,7 +29,7 @@ module.exports = {
     },
     plugins: [
         new MiniCssExtractPlugin({
-            filename: 'styles.css', // Имя выходного CSS файла
+            filename: 'style.css', // Имя выходного CSS файла
         }),
     ],
 };
