@@ -69,10 +69,14 @@ html {
   height: 100%;
 }
 
+.swiper-main {
+  overflow: hidden;
+}
+
 .main__tab {
   flex-shrink: 0;
   width: 100vw;
-  height: 100%;
+  height: 100vh;
 }
 /*!******************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/scss/bottomBar.scss ***!
