@@ -130,7 +130,11 @@ body {
 
 @media (max-width: 400px) {
   .product_div {
-    width: calc(96% - 30px);
+    width: calc(96% - 20px);
+  }
+  .magaz__category {
+    gap: 20px;
+    flex-wrap: wrap;
   }
 }
 .magaz__category {
