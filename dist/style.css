@@ -106,6 +106,19 @@ body {
   text-align: center;
   color: #d2dce7;
 }
+
+.product_div {
+  border-radius: 15px;
+  width: 100px;
+  height: 120px;
+  background: #09294c;
+}
+
+.magaz__category {
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+}
 /*!******************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/scss/bottomBar.scss ***!
   \******************************************************************************************************************/
