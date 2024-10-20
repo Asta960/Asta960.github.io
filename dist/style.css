@@ -148,6 +148,10 @@ body {
   padding: 0 2%;
 }
 
+.magaz__category:not(:last-child) {
+  margin-bottom: 30px;
+}
+
 @media (max-width: 400px) {
   .product_div {
     width: calc((100% - 10px) / 2);
