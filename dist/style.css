@@ -112,7 +112,7 @@ body {
   flex-direction: column;
   padding: 10px;
   border-radius: 15px;
-  width: calc((96% - 60px) / 3);
+  width: calc((100% - 60px) / 3);
   height: 100%;
   background: #09294c;
 }
