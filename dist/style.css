@@ -75,6 +75,7 @@ html {
 
 .main__tab {
   flex-shrink: 0;
+  padding: 40px 0 80px;
   width: 100vw;
   height: 100vh;
 }
