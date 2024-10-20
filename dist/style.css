@@ -108,10 +108,20 @@ body {
 }
 
 .product_div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px 10px 0 10px;
   border-radius: 15px;
   width: 100px;
   height: 120px;
   background: #09294c;
+}
+.product_div p {
+  margin: 0;
+  font-weight: 400;
+  font-size: 14px;
+  color: #fff;
 }
 
 .magaz__category {
