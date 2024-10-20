@@ -142,6 +142,8 @@ body {
 .product_div .img-div img {
   width: 100%;
   border-radius: 15px;
+  max-height: 120px;
+  object-fit: contain;
 }
 
 .magaz__category {
