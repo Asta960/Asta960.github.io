@@ -138,6 +138,7 @@ body {
   border-radius: 15px;
   width: 100%;
   line-height: 0;
+  max-height: 120px;
 }
 .product_div .img-div img {
   width: 100%;
