@@ -37,4 +37,8 @@
 }
 .bottom-bar__item svg.active {
   stroke: #23C2DC;
+  transform: scale(1.1);
+}
+.bottom-bar__item svg {
+  transition: all 0.3s ease;
 }
