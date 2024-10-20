@@ -32,3 +32,6 @@
 .bottom-bar__item {
   display: inline-flex;
 }
+.bottom-bar__item svg.active {
+  stroke: #23C2DC;
+}
