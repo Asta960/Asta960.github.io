@@ -201,14 +201,17 @@ body {
 
 .top-bar {
   position: absolute;
-  top: 0;
+  top: 10;
   right: 30px;
   display: flex;
   gap: 8px;
   align-items: center;
   justify-content: center;
   padding: 0 18px;
-  height: 25px;
+  height: 36px;
   border-radius: 25px;
   background: #09294c;
+  font-weight: 400;
+  font-size: 14px;
+  color: #fff;
 }
