@@ -99,6 +99,12 @@ body {
   font-size: 48px;
 }
 
+.main__tab-1 div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .magaz__h2 {
   margin: 0 0 20px;
   font-weight: 400;
