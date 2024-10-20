@@ -51,6 +51,10 @@ html {
   background-color: #0D1B2A;
 }
 
+body {
+  overflow-y: hidden;
+}
+
 *,
 *::before,
 *::after {
@@ -78,6 +82,7 @@ html {
   padding: 40px 0 80px;
   width: 100vw;
   height: 100vh;
+  overflow: auto;
 }
 
 .btn-play {
