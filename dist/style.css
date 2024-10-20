@@ -93,6 +93,14 @@ html {
   font-weight: 400;
   font-size: 48px;
 }
+
+.magaz__h2 {
+  margin: 0 0 20px;
+  font-weight: 400;
+  font-size: 40px;
+  text-align: center;
+  color: #d2dce7;
+}
 /*!******************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/scss/bottomBar.scss ***!
   \******************************************************************************************************************/
